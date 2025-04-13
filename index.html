@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dynamic Webpage</title>
+<style>
+  body {
+    font-family: sans-serif;
+  }
+  #myElement {
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  .hidden {
+    display: none;
+  }
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 600px) {
+    #myElement {
+      width: 90%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>Dynamic Webpage</h1>
+
+<p id="dynamicText">Initial Text</p>
+
+<button id="changeText">Change Text</button>
+<button id="addRemove">Add/Remove Element</button>
+
+<div id="myElement">This is a dynamic element.</div>
+
+
+<script src="script.js"></script> </body>
+</html>
